@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/stefley/typescript-practice/issues"
   },
-  "homepage": "https://github.com/stefley/typescript-practice#readme"
+  "homepage": "https://github.com/stefley/typescript-practice#readme",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
 }
