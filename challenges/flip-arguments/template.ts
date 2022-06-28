@@ -1,0 +1,1 @@
+type FlipArguments<T> = T extends (...args: infer Arg) => infer R ? (...args: Reverse<Arg>) => R : never
