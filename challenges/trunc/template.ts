@@ -1,0 +1,1 @@
+type Trunc<T extends string | number> = `${T}` extends `${infer L}${"."}${string}` ? L : `${T}`
