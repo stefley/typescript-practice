@@ -1,0 +1,1 @@
+type ConstructTuple<L extends number, Res extends unknown[] = []> = L extends 0 ? [] : Res['length'] extends L ? Res : ConstructTuple<L, [...Res, unknown]>
